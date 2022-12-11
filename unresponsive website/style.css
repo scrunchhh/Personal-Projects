@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none;  /* Chrome */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+.logo {
+    margin-top: 25px;
+}
+
+nav ul {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    height: 675px;
+    max-width: 1080;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.row-left {
+    display:flex;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.row-right {
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.banner {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    margin-top: 30px;
+    margin-left: -125px;
+}
+
+.col-2 {
+    position: absolute;
+    flex-basis: 500%;
+    min-width: 700px;
+}
+
+.col-2 h1 {
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    display: flex;
+    color: #555;
+    z-index: 1;
+    font-size: 75px;
+    line-height: 55px;
+    margin-top: 50px;
+}
+
+.col-2shop {
+    position: absolute;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+.btn {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    padding: 3px 30px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    background: white;
+    color: #16161d;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #CCE0F0;
+}
+
+.header {
+    position: flex;
+    background: #16161d;
+}
+
+.categories {
+    margin: 100px 0px;
+}
+
+.col-3 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.col-3 img {
+    width: 65%;
+    z-index: 1;
+    border: white solid 15px;
+    border-radius: 50px;
+}
+
+.line{
+    display: flex;
+    height: 650px;
+    background: #16161d;
+}
+
+.line2{
+    display: flex;
+    justify-content: right;
+    height: 650px;
+    background: #16161d;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    background: #16161d;
+}
+
+.linecross {
+    float: left;
+    position: relative;
+    border:none;
+    border-top: dashed 15px #16161d;
+    z-index: 0;
+    margin-top: -320px;
+    height: 15px;
+    width: 33%;
+    background: rgb(255, 255, 255);
+}
+
+.linecrossr {
+    float: right;
+    position: relative;
+    border:none;
+    border-top: dashed 15px #16161d;
+    z-index: 0;
+    margin-top: -320px;
+    height: 15px;
+    width: 33%;
+    background: rgb(255, 255, 255);
+}
+
+.text1 .desc {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 65px;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 185px;
+    margin-left: 38%;
+}
+
+.text1 .descp {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 38%;
+    max-width: 450px;
+    line-height: 30px;
+} 
+
+.text2 .desc {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 65px;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 845px;
+    margin-left: 44%;
+}
+
+.text2 .descp {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: right;
+    margin-top: 960px;
+    margin-left: 21%;
+    max-width: 450px;
+    line-height: 30px;
+} 
+
+.text3 .desc {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 65px;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 1500px;
+    margin-left: 38%;
+}
+
+.text3 .descp {
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 1615px;
+    margin-left: 38%;
+    max-width: 450px;
+    line-height: 30px;
+} 
+
+.text1 .bar {
+    display: flex;
+    position: absolute;
+    height: 60%;
+    border-left: 2px solid white;
+    margin-top: 140px;
+    margin-left: 35%;
+}
+
+.text2 .bar {
+    display: flex;
+    position: absolute;
+    height: 60%;
+    border-left: 2px solid white;
+    margin-top: 790px;
+    margin-left: 59%;
+}
+
+.text3 .bar {
+    display: flex;
+    position: absolute;
+    height: 60%;
+    border-left: 2px solid white;
+    margin-top: 1445px;
+    margin-left: 35%;
+}
